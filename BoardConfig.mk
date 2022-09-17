@@ -15,7 +15,7 @@
 #
 
 # Inherit from sm6115-common
-include device/xiaomi/sm6115-common/BoardConfigCommon.mk
+include device/motorola/sm6115-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/guamp
 
@@ -24,6 +24,7 @@ TARGET_SCREEN_DENSITY := 560
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/guamp_defconfig
+#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

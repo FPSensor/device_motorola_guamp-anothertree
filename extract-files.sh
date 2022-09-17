@@ -25,4 +25,7 @@ set -e
 
 # Required!
 export DEVICE=guamp
+export DEVICE_COMMON=sm6115-common
 export DEVICE_BRINGUP_YEAR=2020
+
+"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

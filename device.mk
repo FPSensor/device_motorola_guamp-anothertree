@@ -28,6 +28,8 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+PRODUCT_SOONG_NAMESPACES=:device/motorola/guamp kernel/motorola/guamp hardware/qcom-caf/bootctrl
+
 # Inherit from sm6115-common
 $(call inherit-product, device/motorola/sm6115-common/sm6115.mk)
 
