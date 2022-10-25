@@ -26,6 +26,8 @@ TARGET_SCREEN_DENSITY := 560
 TARGET_KERNEL_SOURCE := kernel/motorola/guamp
 TARGET_KERNEL_CONFIG := vendor/guamp_defconfig
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image
+TARGET_PREBUILT_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
+TARGET_PREBUILT_DTBO := $(LOCAL_PATH)/prebuilt/dtbo.img
 TARGET_FORCE_PREBUILT_KERNEL := true
 
 # Properties
