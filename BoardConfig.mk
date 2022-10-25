@@ -23,8 +23,10 @@ DEVICE_PATH := device/motorola/guamp
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/motorola/guamp
 TARGET_KERNEL_CONFIG := vendor/guamp_defconfig
-#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image
+TARGET_FORCE_PREBUILT_KERNEL := true
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
